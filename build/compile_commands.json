@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build",
+  "command": "/usr/bin/g++  -I/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/prf.dir/src/functions/composition_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc",
+  "file": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc",
+  "output": "CMakeFiles/prf.dir/src/functions/composition_function.cc.o"
+},
+{
+  "directory": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build",
+  "command": "/usr/bin/g++  -I/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/prf.dir/src/functions/function_builder.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc",
+  "file": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc",
+  "output": "CMakeFiles/prf.dir/src/functions/function_builder.cc.o"
+},
+{
+  "directory": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build",
+  "command": "/usr/bin/g++  -I/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/prf.dir/src/functions/identity_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc",
+  "file": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc",
+  "output": "CMakeFiles/prf.dir/src/functions/identity_function.cc.o"
+},
+{
+  "directory": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build",
+  "command": "/usr/bin/g++  -I/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/prf.dir/src/functions/projection_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc",
+  "file": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc",
+  "output": "CMakeFiles/prf.dir/src/functions/projection_function.cc.o"
+},
+{
+  "directory": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build",
+  "command": "/usr/bin/g++  -I/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/prf.dir/src/functions/recursion_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc",
+  "file": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc",
+  "output": "CMakeFiles/prf.dir/src/functions/recursion_function.cc.o"
+},
+{
+  "directory": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build",
+  "command": "/usr/bin/g++  -I/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/prf.dir/src/functions/successor_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc",
+  "file": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc",
+  "output": "CMakeFiles/prf.dir/src/functions/successor_function.cc.o"
+},
+{
+  "directory": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build",
+  "command": "/usr/bin/g++  -I/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/prf.dir/src/functions/zero_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc",
+  "file": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc",
+  "output": "CMakeFiles/prf.dir/src/functions/zero_function.cc.o"
+},
+{
+  "directory": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build",
+  "command": "/usr/bin/g++  -I/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/prf.dir/src/interactive/function_registry.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc",
+  "file": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc",
+  "output": "CMakeFiles/prf.dir/src/interactive/function_registry.cc.o"
+},
+{
+  "directory": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build",
+  "command": "/usr/bin/g++  -I/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc",
+  "file": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc",
+  "output": "CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o"
+},
+{
+  "directory": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build",
+  "command": "/usr/bin/g++  -I/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/include -g -std=gnu++20 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/prf.dir/src/main.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc",
+  "file": "/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc",
+  "output": "CMakeFiles/prf.dir/src/main.cc.o"
+}
+]

@@ -73,141 +73,141 @@ CMakeFiles/prf.dir/src/functions/composition_function.cc.o: CMakeFiles/prf.dir/f
 CMakeFiles/prf.dir/src/functions/composition_function.cc.o: /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc
 CMakeFiles/prf.dir/src/functions/composition_function.cc.o: CMakeFiles/prf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prf.dir/src/functions/composition_function.cc.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/composition_function.cc.o -MF CMakeFiles/prf.dir/src/functions/composition_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/composition_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc -- /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/composition_function.cc.o -MF CMakeFiles/prf.dir/src/functions/composition_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/composition_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc
 
 CMakeFiles/prf.dir/src/functions/composition_function.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prf.dir/src/functions/composition_function.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc > CMakeFiles/prf.dir/src/functions/composition_function.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc > CMakeFiles/prf.dir/src/functions/composition_function.cc.i
 
 CMakeFiles/prf.dir/src/functions/composition_function.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prf.dir/src/functions/composition_function.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc -o CMakeFiles/prf.dir/src/functions/composition_function.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/composition_function.cc -o CMakeFiles/prf.dir/src/functions/composition_function.cc.s
 
 CMakeFiles/prf.dir/src/functions/function_builder.cc.o: CMakeFiles/prf.dir/flags.make
 CMakeFiles/prf.dir/src/functions/function_builder.cc.o: /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc
 CMakeFiles/prf.dir/src/functions/function_builder.cc.o: CMakeFiles/prf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prf.dir/src/functions/function_builder.cc.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/function_builder.cc.o -MF CMakeFiles/prf.dir/src/functions/function_builder.cc.o.d -o CMakeFiles/prf.dir/src/functions/function_builder.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc -- /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/function_builder.cc.o -MF CMakeFiles/prf.dir/src/functions/function_builder.cc.o.d -o CMakeFiles/prf.dir/src/functions/function_builder.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc
 
 CMakeFiles/prf.dir/src/functions/function_builder.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prf.dir/src/functions/function_builder.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc > CMakeFiles/prf.dir/src/functions/function_builder.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc > CMakeFiles/prf.dir/src/functions/function_builder.cc.i
 
 CMakeFiles/prf.dir/src/functions/function_builder.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prf.dir/src/functions/function_builder.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc -o CMakeFiles/prf.dir/src/functions/function_builder.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/function_builder.cc -o CMakeFiles/prf.dir/src/functions/function_builder.cc.s
 
 CMakeFiles/prf.dir/src/functions/identity_function.cc.o: CMakeFiles/prf.dir/flags.make
 CMakeFiles/prf.dir/src/functions/identity_function.cc.o: /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc
 CMakeFiles/prf.dir/src/functions/identity_function.cc.o: CMakeFiles/prf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/prf.dir/src/functions/identity_function.cc.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/identity_function.cc.o -MF CMakeFiles/prf.dir/src/functions/identity_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/identity_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc -- /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/identity_function.cc.o -MF CMakeFiles/prf.dir/src/functions/identity_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/identity_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc
 
 CMakeFiles/prf.dir/src/functions/identity_function.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prf.dir/src/functions/identity_function.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc > CMakeFiles/prf.dir/src/functions/identity_function.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc > CMakeFiles/prf.dir/src/functions/identity_function.cc.i
 
 CMakeFiles/prf.dir/src/functions/identity_function.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prf.dir/src/functions/identity_function.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc -o CMakeFiles/prf.dir/src/functions/identity_function.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/identity_function.cc -o CMakeFiles/prf.dir/src/functions/identity_function.cc.s
 
 CMakeFiles/prf.dir/src/functions/projection_function.cc.o: CMakeFiles/prf.dir/flags.make
 CMakeFiles/prf.dir/src/functions/projection_function.cc.o: /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc
 CMakeFiles/prf.dir/src/functions/projection_function.cc.o: CMakeFiles/prf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/prf.dir/src/functions/projection_function.cc.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/projection_function.cc.o -MF CMakeFiles/prf.dir/src/functions/projection_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/projection_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc -- /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/projection_function.cc.o -MF CMakeFiles/prf.dir/src/functions/projection_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/projection_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc
 
 CMakeFiles/prf.dir/src/functions/projection_function.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prf.dir/src/functions/projection_function.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc > CMakeFiles/prf.dir/src/functions/projection_function.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc > CMakeFiles/prf.dir/src/functions/projection_function.cc.i
 
 CMakeFiles/prf.dir/src/functions/projection_function.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prf.dir/src/functions/projection_function.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc -o CMakeFiles/prf.dir/src/functions/projection_function.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/projection_function.cc -o CMakeFiles/prf.dir/src/functions/projection_function.cc.s
 
 CMakeFiles/prf.dir/src/functions/recursion_function.cc.o: CMakeFiles/prf.dir/flags.make
 CMakeFiles/prf.dir/src/functions/recursion_function.cc.o: /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc
 CMakeFiles/prf.dir/src/functions/recursion_function.cc.o: CMakeFiles/prf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/prf.dir/src/functions/recursion_function.cc.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/recursion_function.cc.o -MF CMakeFiles/prf.dir/src/functions/recursion_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/recursion_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc -- /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/recursion_function.cc.o -MF CMakeFiles/prf.dir/src/functions/recursion_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/recursion_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc
 
 CMakeFiles/prf.dir/src/functions/recursion_function.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prf.dir/src/functions/recursion_function.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc > CMakeFiles/prf.dir/src/functions/recursion_function.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc > CMakeFiles/prf.dir/src/functions/recursion_function.cc.i
 
 CMakeFiles/prf.dir/src/functions/recursion_function.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prf.dir/src/functions/recursion_function.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc -o CMakeFiles/prf.dir/src/functions/recursion_function.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/recursion_function.cc -o CMakeFiles/prf.dir/src/functions/recursion_function.cc.s
 
 CMakeFiles/prf.dir/src/functions/successor_function.cc.o: CMakeFiles/prf.dir/flags.make
 CMakeFiles/prf.dir/src/functions/successor_function.cc.o: /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc
 CMakeFiles/prf.dir/src/functions/successor_function.cc.o: CMakeFiles/prf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/prf.dir/src/functions/successor_function.cc.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/successor_function.cc.o -MF CMakeFiles/prf.dir/src/functions/successor_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/successor_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc -- /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/successor_function.cc.o -MF CMakeFiles/prf.dir/src/functions/successor_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/successor_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc
 
 CMakeFiles/prf.dir/src/functions/successor_function.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prf.dir/src/functions/successor_function.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc > CMakeFiles/prf.dir/src/functions/successor_function.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc > CMakeFiles/prf.dir/src/functions/successor_function.cc.i
 
 CMakeFiles/prf.dir/src/functions/successor_function.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prf.dir/src/functions/successor_function.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc -o CMakeFiles/prf.dir/src/functions/successor_function.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/successor_function.cc -o CMakeFiles/prf.dir/src/functions/successor_function.cc.s
 
 CMakeFiles/prf.dir/src/functions/zero_function.cc.o: CMakeFiles/prf.dir/flags.make
 CMakeFiles/prf.dir/src/functions/zero_function.cc.o: /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc
 CMakeFiles/prf.dir/src/functions/zero_function.cc.o: CMakeFiles/prf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/prf.dir/src/functions/zero_function.cc.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/zero_function.cc.o -MF CMakeFiles/prf.dir/src/functions/zero_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/zero_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc -- /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/functions/zero_function.cc.o -MF CMakeFiles/prf.dir/src/functions/zero_function.cc.o.d -o CMakeFiles/prf.dir/src/functions/zero_function.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc
 
 CMakeFiles/prf.dir/src/functions/zero_function.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prf.dir/src/functions/zero_function.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc > CMakeFiles/prf.dir/src/functions/zero_function.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc > CMakeFiles/prf.dir/src/functions/zero_function.cc.i
 
 CMakeFiles/prf.dir/src/functions/zero_function.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prf.dir/src/functions/zero_function.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc -o CMakeFiles/prf.dir/src/functions/zero_function.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/functions/zero_function.cc -o CMakeFiles/prf.dir/src/functions/zero_function.cc.s
 
 CMakeFiles/prf.dir/src/interactive/function_registry.cc.o: CMakeFiles/prf.dir/flags.make
 CMakeFiles/prf.dir/src/interactive/function_registry.cc.o: /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc
 CMakeFiles/prf.dir/src/interactive/function_registry.cc.o: CMakeFiles/prf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/prf.dir/src/interactive/function_registry.cc.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/interactive/function_registry.cc.o -MF CMakeFiles/prf.dir/src/interactive/function_registry.cc.o.d -o CMakeFiles/prf.dir/src/interactive/function_registry.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc -- /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/interactive/function_registry.cc.o -MF CMakeFiles/prf.dir/src/interactive/function_registry.cc.o.d -o CMakeFiles/prf.dir/src/interactive/function_registry.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc
 
 CMakeFiles/prf.dir/src/interactive/function_registry.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prf.dir/src/interactive/function_registry.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc > CMakeFiles/prf.dir/src/interactive/function_registry.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc > CMakeFiles/prf.dir/src/interactive/function_registry.cc.i
 
 CMakeFiles/prf.dir/src/interactive/function_registry.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prf.dir/src/interactive/function_registry.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc -o CMakeFiles/prf.dir/src/interactive/function_registry.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/function_registry.cc -o CMakeFiles/prf.dir/src/interactive/function_registry.cc.s
 
 CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o: CMakeFiles/prf.dir/flags.make
 CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o: /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc
 CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o: CMakeFiles/prf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o -MF CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o.d -o CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc -- /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o -MF CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o.d -o CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc
 
 CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc > CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc > CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.i
 
 CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc -o CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/interactive/interactive_menu.cc -o CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.s
 
 CMakeFiles/prf.dir/src/main.cc.o: CMakeFiles/prf.dir/flags.make
 CMakeFiles/prf.dir/src/main.cc.o: /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc
 CMakeFiles/prf.dir/src/main.cc.o: CMakeFiles/prf.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/prf.dir/src/main.cc.o"
-	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc -- /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/main.cc.o -MF CMakeFiles/prf.dir/src/main.cc.o.d -o CMakeFiles/prf.dir/src/main.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc
+	$(CMAKE_COMMAND) -E __run_co_compile --tidy="clang-tidy;-checks=cppcoreguidelines-*,modernize-*;--extra-arg-before=--driver-mode=g++" --source=/home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc -- /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/prf.dir/src/main.cc.o -MF CMakeFiles/prf.dir/src/main.cc.o.d -o CMakeFiles/prf.dir/src/main.cc.o -c /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc
 
 CMakeFiles/prf.dir/src/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/prf.dir/src/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc > CMakeFiles/prf.dir/src/main.cc.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc > CMakeFiles/prf.dir/src/main.cc.i
 
 CMakeFiles/prf.dir/src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/prf.dir/src/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc -o CMakeFiles/prf.dir/src/main.cc.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eric/ComplejidadComputacional/PrimitiveRecursiveFunction/src/main.cc -o CMakeFiles/prf.dir/src/main.cc.s
 
 # Object files for target prf
 prf_OBJECTS = \
