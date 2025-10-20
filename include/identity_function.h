@@ -5,30 +5,30 @@
  * Complejidad computacional
  *
  *
- * @brief Header file for the SuccessorFunction class.
+ * @brief Header file for the IdentityFunction class.
  * @author Eric Ríos Hamilton
  * @date 20-10-2025
  */
 
-#ifndef SUCCESSOR_FUNCTION_H
-#define SUCCESSOR_FUNCTION_H
+#ifndef IDENTITY_FUNCTION_H
+#define IDENTITY_FUNCTION_H
 
 #include "primitive_recursive_function.h"
 
 /**
- * @brief Basic primitive recursive function: S(x) = x + 1
+ * @brief Identity function: Id(x) = x
  * 
- * The successor function increments its single argument by 1.
- * This is one of the three basic primitive recursive functions.
+ * This is simply a projection function P¹₁ that returns its single argument.
+ * Included as a convenience alias for clarity in code.
  * Arity: 1 (unary function)
  */
-class SuccessorFunction : public PrimitiveRecursiveFunction {
+class IdentityFunction : public PrimitiveRecursiveFunction {
  public:
   auto Run(const std::vector<unsigned>& inputs) const -> unsigned override {
-    return inputs[0] + 1;
+    return inputs[0];
   }
 
   auto GetArity() const -> size_t override { return 1; }
 };
 
-#endif // SUCCESSOR_FUNCTION_H
+#endif  // IDENTITY_FUNCTION_H

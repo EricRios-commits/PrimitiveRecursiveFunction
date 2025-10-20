@@ -15,9 +15,28 @@
 
 #include "primitive_recursive_function.h"
 
-class ZeroFunction : public PrimitiveRecursiveFunction<unsigned> {
+/**
+ * @brief Basic primitive recursive function: Z(x₁, ..., xₙ) = 0
+ * 
+ * The zero function returns 0 regardless of input.
+ * This is one of the three basic primitive recursive functions.
+ */
+class ZeroFunction : public PrimitiveRecursiveFunction {
  public:
-  auto Run(unsigned input) -> unsigned override { return 0; }
+  /**
+   * @brief Construct a zero function with specified arity.
+   * @param arity Number of arguments (default: 1)
+   */
+  explicit ZeroFunction(size_t arity = 1) : arity_(arity) {}
+
+  auto Run(const std::vector<unsigned>&) const -> unsigned override { 
+    return 0;
+  }
+
+  auto GetArity() const -> size_t override { return arity_; }
+
+ private:
+  size_t arity_;
 };
 
 #endif  // ZERO_FUNCTION_H
