@@ -13,22 +13,16 @@
 #ifndef SUCCESSOR_FUNCTION_H
 #define SUCCESSOR_FUNCTION_H
 
-#include "primitive_recursive_function.h"
+#include "functions/primitive_recursive_function.h"
 
 /**
  * @brief Basic primitive recursive function: S(x) = x + 1
- * 
- * The successor function increments its single argument by 1.
- * This is one of the three basic primitive recursive functions.
- * Arity: 1 (unary function)
  */
 class SuccessorFunction : public PrimitiveRecursiveFunction {
  public:
-  auto Run(const std::vector<unsigned>& inputs) const -> unsigned override {
-    return inputs[0] + 1;
-  }
+  auto Run(const std::vector<unsigned>& inputs) const -> unsigned override;
 
-  auto GetArity() const -> size_t override { return 1; }
+  auto GetArity() const -> size_t override;
 };
 
 #endif // SUCCESSOR_FUNCTION_H

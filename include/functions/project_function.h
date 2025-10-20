@@ -13,14 +13,11 @@
 #ifndef PROJECT_FUNCTION_H
 #define PROJECT_FUNCTION_H
 
-#include "primitive_recursive_function.h"
+#include "functions/primitive_recursive_function.h"
 
 /**
- * @brief Basic primitive recursive function: Pⁿᵢ(x₁, ..., xₙ) = xᵢ
- * 
- * The projection function returns the i-th argument from n arguments.
- * This is one of the three basic primitive recursive functions.
- * 
+ * @brief Basic primitive recursive function
+ *  
  * @note Index is 0-based (0 ≤ index < arity)
  */
 class ProjectionFunction : public PrimitiveRecursiveFunction {
@@ -30,14 +27,11 @@ class ProjectionFunction : public PrimitiveRecursiveFunction {
    * @param arity Total number of arguments
    * @param index Which argument to project (0-based)
    */
-  ProjectionFunction(size_t arity, size_t index) 
-      : arity_(arity), index_(index) {}
+  ProjectionFunction(size_t arity, size_t index);
 
-  auto Run(const std::vector<unsigned>& inputs) const -> unsigned override {
-    return inputs[index_];
-  }
+  auto Run(const std::vector<unsigned>& inputs) const -> unsigned override;
 
-  auto GetArity() const -> size_t override { return arity_; }
+  auto GetArity() const -> size_t override;
 
  private:
   size_t arity_;

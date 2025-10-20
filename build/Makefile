@@ -129,6 +129,222 @@ prf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/build
 .PHONY : prf/fast
 
+src/functions/composition_function.o: src/functions/composition_function.cc.o
+.PHONY : src/functions/composition_function.o
+
+# target to build an object file
+src/functions/composition_function.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/composition_function.cc.o
+.PHONY : src/functions/composition_function.cc.o
+
+src/functions/composition_function.i: src/functions/composition_function.cc.i
+.PHONY : src/functions/composition_function.i
+
+# target to preprocess a source file
+src/functions/composition_function.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/composition_function.cc.i
+.PHONY : src/functions/composition_function.cc.i
+
+src/functions/composition_function.s: src/functions/composition_function.cc.s
+.PHONY : src/functions/composition_function.s
+
+# target to generate assembly for a file
+src/functions/composition_function.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/composition_function.cc.s
+.PHONY : src/functions/composition_function.cc.s
+
+src/functions/function_builder.o: src/functions/function_builder.cc.o
+.PHONY : src/functions/function_builder.o
+
+# target to build an object file
+src/functions/function_builder.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/function_builder.cc.o
+.PHONY : src/functions/function_builder.cc.o
+
+src/functions/function_builder.i: src/functions/function_builder.cc.i
+.PHONY : src/functions/function_builder.i
+
+# target to preprocess a source file
+src/functions/function_builder.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/function_builder.cc.i
+.PHONY : src/functions/function_builder.cc.i
+
+src/functions/function_builder.s: src/functions/function_builder.cc.s
+.PHONY : src/functions/function_builder.s
+
+# target to generate assembly for a file
+src/functions/function_builder.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/function_builder.cc.s
+.PHONY : src/functions/function_builder.cc.s
+
+src/functions/identity_function.o: src/functions/identity_function.cc.o
+.PHONY : src/functions/identity_function.o
+
+# target to build an object file
+src/functions/identity_function.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/identity_function.cc.o
+.PHONY : src/functions/identity_function.cc.o
+
+src/functions/identity_function.i: src/functions/identity_function.cc.i
+.PHONY : src/functions/identity_function.i
+
+# target to preprocess a source file
+src/functions/identity_function.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/identity_function.cc.i
+.PHONY : src/functions/identity_function.cc.i
+
+src/functions/identity_function.s: src/functions/identity_function.cc.s
+.PHONY : src/functions/identity_function.s
+
+# target to generate assembly for a file
+src/functions/identity_function.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/identity_function.cc.s
+.PHONY : src/functions/identity_function.cc.s
+
+src/functions/projection_function.o: src/functions/projection_function.cc.o
+.PHONY : src/functions/projection_function.o
+
+# target to build an object file
+src/functions/projection_function.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/projection_function.cc.o
+.PHONY : src/functions/projection_function.cc.o
+
+src/functions/projection_function.i: src/functions/projection_function.cc.i
+.PHONY : src/functions/projection_function.i
+
+# target to preprocess a source file
+src/functions/projection_function.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/projection_function.cc.i
+.PHONY : src/functions/projection_function.cc.i
+
+src/functions/projection_function.s: src/functions/projection_function.cc.s
+.PHONY : src/functions/projection_function.s
+
+# target to generate assembly for a file
+src/functions/projection_function.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/projection_function.cc.s
+.PHONY : src/functions/projection_function.cc.s
+
+src/functions/recursion_function.o: src/functions/recursion_function.cc.o
+.PHONY : src/functions/recursion_function.o
+
+# target to build an object file
+src/functions/recursion_function.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/recursion_function.cc.o
+.PHONY : src/functions/recursion_function.cc.o
+
+src/functions/recursion_function.i: src/functions/recursion_function.cc.i
+.PHONY : src/functions/recursion_function.i
+
+# target to preprocess a source file
+src/functions/recursion_function.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/recursion_function.cc.i
+.PHONY : src/functions/recursion_function.cc.i
+
+src/functions/recursion_function.s: src/functions/recursion_function.cc.s
+.PHONY : src/functions/recursion_function.s
+
+# target to generate assembly for a file
+src/functions/recursion_function.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/recursion_function.cc.s
+.PHONY : src/functions/recursion_function.cc.s
+
+src/functions/successor_function.o: src/functions/successor_function.cc.o
+.PHONY : src/functions/successor_function.o
+
+# target to build an object file
+src/functions/successor_function.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/successor_function.cc.o
+.PHONY : src/functions/successor_function.cc.o
+
+src/functions/successor_function.i: src/functions/successor_function.cc.i
+.PHONY : src/functions/successor_function.i
+
+# target to preprocess a source file
+src/functions/successor_function.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/successor_function.cc.i
+.PHONY : src/functions/successor_function.cc.i
+
+src/functions/successor_function.s: src/functions/successor_function.cc.s
+.PHONY : src/functions/successor_function.s
+
+# target to generate assembly for a file
+src/functions/successor_function.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/successor_function.cc.s
+.PHONY : src/functions/successor_function.cc.s
+
+src/functions/zero_function.o: src/functions/zero_function.cc.o
+.PHONY : src/functions/zero_function.o
+
+# target to build an object file
+src/functions/zero_function.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/zero_function.cc.o
+.PHONY : src/functions/zero_function.cc.o
+
+src/functions/zero_function.i: src/functions/zero_function.cc.i
+.PHONY : src/functions/zero_function.i
+
+# target to preprocess a source file
+src/functions/zero_function.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/zero_function.cc.i
+.PHONY : src/functions/zero_function.cc.i
+
+src/functions/zero_function.s: src/functions/zero_function.cc.s
+.PHONY : src/functions/zero_function.s
+
+# target to generate assembly for a file
+src/functions/zero_function.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/functions/zero_function.cc.s
+.PHONY : src/functions/zero_function.cc.s
+
+src/interactive/function_registry.o: src/interactive/function_registry.cc.o
+.PHONY : src/interactive/function_registry.o
+
+# target to build an object file
+src/interactive/function_registry.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/interactive/function_registry.cc.o
+.PHONY : src/interactive/function_registry.cc.o
+
+src/interactive/function_registry.i: src/interactive/function_registry.cc.i
+.PHONY : src/interactive/function_registry.i
+
+# target to preprocess a source file
+src/interactive/function_registry.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/interactive/function_registry.cc.i
+.PHONY : src/interactive/function_registry.cc.i
+
+src/interactive/function_registry.s: src/interactive/function_registry.cc.s
+.PHONY : src/interactive/function_registry.s
+
+# target to generate assembly for a file
+src/interactive/function_registry.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/interactive/function_registry.cc.s
+.PHONY : src/interactive/function_registry.cc.s
+
+src/interactive/interactive_menu.o: src/interactive/interactive_menu.cc.o
+.PHONY : src/interactive/interactive_menu.o
+
+# target to build an object file
+src/interactive/interactive_menu.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.o
+.PHONY : src/interactive/interactive_menu.cc.o
+
+src/interactive/interactive_menu.i: src/interactive/interactive_menu.cc.i
+.PHONY : src/interactive/interactive_menu.i
+
+# target to preprocess a source file
+src/interactive/interactive_menu.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.i
+.PHONY : src/interactive/interactive_menu.cc.i
+
+src/interactive/interactive_menu.s: src/interactive/interactive_menu.cc.s
+.PHONY : src/interactive/interactive_menu.s
+
+# target to generate assembly for a file
+src/interactive/interactive_menu.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prf.dir/build.make CMakeFiles/prf.dir/src/interactive/interactive_menu.cc.s
+.PHONY : src/interactive/interactive_menu.cc.s
+
 src/main.o: src/main.cc.o
 .PHONY : src/main.o
 
@@ -162,6 +378,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... prf"
+	@echo "... src/functions/composition_function.o"
+	@echo "... src/functions/composition_function.i"
+	@echo "... src/functions/composition_function.s"
+	@echo "... src/functions/function_builder.o"
+	@echo "... src/functions/function_builder.i"
+	@echo "... src/functions/function_builder.s"
+	@echo "... src/functions/identity_function.o"
+	@echo "... src/functions/identity_function.i"
+	@echo "... src/functions/identity_function.s"
+	@echo "... src/functions/projection_function.o"
+	@echo "... src/functions/projection_function.i"
+	@echo "... src/functions/projection_function.s"
+	@echo "... src/functions/recursion_function.o"
+	@echo "... src/functions/recursion_function.i"
+	@echo "... src/functions/recursion_function.s"
+	@echo "... src/functions/successor_function.o"
+	@echo "... src/functions/successor_function.i"
+	@echo "... src/functions/successor_function.s"
+	@echo "... src/functions/zero_function.o"
+	@echo "... src/functions/zero_function.i"
+	@echo "... src/functions/zero_function.s"
+	@echo "... src/interactive/function_registry.o"
+	@echo "... src/interactive/function_registry.i"
+	@echo "... src/interactive/function_registry.s"
+	@echo "... src/interactive/interactive_menu.o"
+	@echo "... src/interactive/interactive_menu.i"
+	@echo "... src/interactive/interactive_menu.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

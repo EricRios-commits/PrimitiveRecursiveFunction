@@ -13,22 +13,17 @@
 #ifndef IDENTITY_FUNCTION_H
 #define IDENTITY_FUNCTION_H
 
-#include "primitive_recursive_function.h"
+#include "functions/primitive_recursive_function.h"
 
 /**
- * @brief Identity function: Id(x) = x
+ * @brief Identity function: Id(x) = x (Alias for projection function P1,1)
  * 
- * This is simply a projection function P¹₁ that returns its single argument.
- * Included as a convenience alias for clarity in code.
- * Arity: 1 (unary function)
  */
 class IdentityFunction : public PrimitiveRecursiveFunction {
  public:
-  auto Run(const std::vector<unsigned>& inputs) const -> unsigned override {
-    return inputs[0];
-  }
+  auto Run(const std::vector<unsigned>& inputs) const -> unsigned override;
 
-  auto GetArity() const -> size_t override { return 1; }
+  auto GetArity() const -> size_t override;
 };
 
 #endif  // IDENTITY_FUNCTION_H

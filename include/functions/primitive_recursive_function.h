@@ -18,17 +18,13 @@
 /**
  * @brief Abstract base class for all primitive recursive functions.
  * 
- * All primitive recursive functions map from ℕᵏ → ℕ (k-tuple of naturals to a natural).
- * This design follows the Composite Pattern, where:
- * - Leaf nodes are basic functions (Zero, Successor, Projection)
- * - Composite nodes are Composition and Recursion operations
  */
 class PrimitiveRecursiveFunction {
  public:
   /**
    * @brief Execute the function with given inputs.
-   * @param inputs Vector of natural numbers (ℕᵏ)
-   * @return Result of the function (ℕ)
+   * @param inputs Vector of natural numbers
+   * @return Result of the function
    */
   virtual auto Run(const std::vector<unsigned>& inputs) const -> unsigned = 0;
 
@@ -39,7 +35,7 @@ class PrimitiveRecursiveFunction {
   virtual auto GetArity() const -> size_t = 0;
 
   /**
-   * @brief Virtual destructor for proper cleanup of derived classes.
+   * @brief Virtual destructor
    */
   virtual ~PrimitiveRecursiveFunction() = default;
 };
