@@ -36,9 +36,16 @@ void InteractiveMenu::Run() {
       break;
     } else if (command == "list" || command == "l") {
       DisplayFunctions();
+    } else if (command == "stats" || command == "s") {
+      DisplayCallStats();
+    } else if (command == "reset" || command == "r") {
+      ResetCallStats();
+      std::cout << "Call counters reset\n";
     } else if (command == "help" || command == "h") {
       std::cout << "\nCommands:\n";
       std::cout << "  list    - List available functions\n";
+      std::cout << "  stats   - Show call statistics\n";
+      std::cout << "  reset   - Reset call counters\n";
       std::cout << "  help    - Show this help\n";
       std::cout << "  quit    - Exit\n";
       std::cout << "  <name>  - Execute function\n\n";
@@ -77,14 +84,17 @@ void InteractiveMenu::ExecuteFunction(const std::string& function_name) {
   auto inputs = ReadInputs(info->arity);
   
   try {
+    info->function->ResetCallCount();
     unsigned result = info->function->Run(inputs);
+    unsigned long calls = info->function->GetCallCount();
     
     std::cout << function_name << "(";
     for (size_t i = 0; i < inputs.size(); ++i) {
       std::cout << inputs[i];
       if (i < inputs.size() - 1) std::cout << ", ";
     }
-    std::cout << ") = " << result << "\n";
+    std::cout << ") = " << result;
+    std::cout << " [" << calls << " calls]\n";
     
   } catch (const std::exception& e) {
     std::cout << "Error: " << e.what() << "\n";
@@ -129,6 +139,35 @@ auto InteractiveMenu::ReadUnsigned(const std::string& prompt) const -> unsigned 
       
     } catch (const std::exception&) {
       std::cout << "Invalid input\n";
+    }
+  }
+}
+
+void InteractiveMenu::DisplayCallStats() const {
+  auto names = registry_.GetAllFunctionNames();
+  
+  if (names.empty()) {
+    std::cout << "No functions registered.\n";
+    return;
+  }
+  
+  std::cout << "\nCall statistics:\n";
+  for (const auto& name : names) {
+    auto info = registry_.GetFunctionInfo(name);
+    if (info) {
+      unsigned long calls = info->function->GetCallCount();
+      std::cout << "  " << name << ": " << calls << " calls\n";
+    }
+  }
+  std::cout << "\n";
+}
+
+void InteractiveMenu::ResetCallStats() {
+  auto names = registry_.GetAllFunctionNames();
+  for (const auto& name : names) {
+    auto info = registry_.GetFunctionInfo(name);
+    if (info) {
+      info->function->ResetCallCount();
     }
   }
 }

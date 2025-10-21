@@ -20,12 +20,12 @@
 #include "functions/zero_function.h"
 
 static auto CreateAddition() -> std::unique_ptr<PrimitiveRecursiveFunction> {
-  // Base: add(0, y) = y
+  // Base: add(x, 0) = x
   auto add_base = std::make_unique<ProjectionFunction>(1, 0);
 
-  // Recursive: add(n+1, y) = S(add(n, y))
+  // Recursive: add(x, n+1) = S(add(x, n))
   std::vector<std::unique_ptr<PrimitiveRecursiveFunction>> add_inner;
-  add_inner.push_back(std::make_unique<ProjectionFunction>(3, 1));
+  add_inner.push_back(std::make_unique<ProjectionFunction>(3, 2));
   auto add_recursive = std::make_unique<CompositionFunction>(
       std::make_unique<SuccessorFunction>(), std::move(add_inner));
 
@@ -43,6 +43,9 @@ auto FunctionBuilder::BuildAddition()
 auto FunctionBuilder::BuildPredecessor()
     -> std::unique_ptr<PrimitiveRecursiveFunction> {
   auto pred_base = std::make_unique<ZeroFunction>(0);
+  
+  // Takes (n, pred(n)) and returns n
+  // n is at index 0
   auto pred_recursive = std::make_unique<ProjectionFunction>(2, 0);
 
   return std::make_unique<RecursionFunction>(std::move(pred_base),
@@ -59,8 +62,10 @@ auto FunctionBuilder::BuildSubtraction()
   auto pred = std::make_unique<RecursionFunction>(
       std::move(pred_base_inner), std::move(pred_recursive_inner));
 
+  // Takes (x, y, sub(x,y)) and returns pred(sub(x,y))
+  // sub(x,y) is at index 2
   std::vector<std::unique_ptr<PrimitiveRecursiveFunction>> sub_inner;
-  sub_inner.push_back(std::make_unique<ProjectionFunction>(3, 1));
+  sub_inner.push_back(std::make_unique<ProjectionFunction>(3, 2));
 
   auto sub_recursive = std::make_unique<CompositionFunction>(
       std::move(pred), std::move(sub_inner));
@@ -69,16 +74,18 @@ auto FunctionBuilder::BuildSubtraction()
                                              std::move(sub_recursive));
 }
 
-// Base: mult(x, 0) = Z(X)
+// Base: mult(x, 0) = 0
 // Recursive: mult(x, y+1) = add(mult(x, y), x)
 auto FunctionBuilder::BuildMultiplication()
     -> std::unique_ptr<PrimitiveRecursiveFunction> {
   auto mult_base = std::make_unique<ZeroFunction>(1);
   auto addition = CreateAddition();
 
+  // Takes (x, y, mult(x,y)) and returns add(mult(x,y), x)
+  // mult(x,y) is at index 2, x is at index 0
   std::vector<std::unique_ptr<PrimitiveRecursiveFunction>> mult_inner;
-  mult_inner.push_back(std::make_unique<ProjectionFunction>(3, 1));
-  mult_inner.push_back(std::make_unique<ProjectionFunction>(3, 2));
+  mult_inner.push_back(std::make_unique<ProjectionFunction>(3, 2));  // mult(x,y)
+  mult_inner.push_back(std::make_unique<ProjectionFunction>(3, 0));  // x
 
   auto mult_recursive = std::make_unique<CompositionFunction>(
       std::move(addition), std::move(mult_inner));
@@ -98,9 +105,11 @@ auto FunctionBuilder::BuildPower()
 
   auto multiplication = BuildMultiplication();
 
+  // Takes (x, y, pow(x,y)) and returns mult(pow(x,y), x)
+  // pow(x,y) is at index 2, x is at index 0
   std::vector<std::unique_ptr<PrimitiveRecursiveFunction>> pow_inner;
-  pow_inner.push_back(std::make_unique<ProjectionFunction>(3, 1));
-  pow_inner.push_back(std::make_unique<ProjectionFunction>(3, 2));
+  pow_inner.push_back(std::make_unique<ProjectionFunction>(3, 2));  // pow(x,y)
+  pow_inner.push_back(std::make_unique<ProjectionFunction>(3, 0));  // x
 
   auto pow_recursive = std::make_unique<CompositionFunction>(
       std::move(multiplication), std::move(pow_inner));

@@ -48,6 +48,16 @@ class InteractiveMenu {
   void ExecuteFunction(const std::string& function_name);
 
   /**
+   * @brief Display call statistics for all functions.
+   */
+  void DisplayCallStats() const;
+
+  /**
+   * @brief Reset call counters for all functions.
+   */
+  void ResetCallStats();
+
+  /**
    * @brief Read a vector of unsigned integers from user input.
    * @param count Number of values to read
    * @return Vector of input values

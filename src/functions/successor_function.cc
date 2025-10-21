@@ -13,6 +13,7 @@
 #include <stdexcept>
 
 auto SuccessorFunction::Run(const std::vector<unsigned>& inputs) const -> unsigned {
+  IncrementCallCount();
   if (inputs.size() != 1) {
     throw std::invalid_argument("SuccessorFunction expects exactly one argument");
   }

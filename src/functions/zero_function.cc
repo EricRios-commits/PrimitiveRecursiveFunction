@@ -14,6 +14,7 @@
 ZeroFunction::ZeroFunction(size_t arity) : arity_(arity) {}
 
 auto ZeroFunction::Run(const std::vector<unsigned>&) const -> unsigned {
+  IncrementCallCount();
   return 0;
 }
 

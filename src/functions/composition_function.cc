@@ -40,10 +40,16 @@ auto CompositionFunction::Run(const std::vector<unsigned>& inputs) const -> unsi
   intermediate_results.reserve(inner_.size());
   
   for (const auto& func : inner_) {
+    func->ResetCallCount();
     intermediate_results.push_back(func->Run(inputs));
+    AddNestedCalls(func->GetCallCount());
   }
 
-  return outer_->Run(intermediate_results);
+  outer_->ResetCallCount();
+  unsigned result = outer_->Run(intermediate_results);
+  AddNestedCalls(outer_->GetCallCount());
+  
+  return result;
 }
 
 auto CompositionFunction::GetArity() const -> size_t {

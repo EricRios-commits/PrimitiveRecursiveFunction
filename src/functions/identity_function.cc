@@ -12,6 +12,7 @@
 #include "functions/identity_function.h"
 
 auto IdentityFunction::Run(const std::vector<unsigned>& inputs) const -> unsigned {
+  IncrementCallCount();
   return inputs[0];
 }
 

@@ -27,25 +27,35 @@ RecursionFunction::RecursionFunction(
 }
 
 auto RecursionFunction::Run(const std::vector<unsigned>& inputs) const -> unsigned {
-  unsigned n = inputs[0];
+  // Recursion on the LAST (rightmost) parameter
+  // h(x₁, ..., xₖ, 0) = f(x₁, ..., xₖ)
+  // h(x₁, ..., xₖ, n+1) = g(x₁, ..., xₖ, n, h(x₁, ..., xₖ, n))
   
-  std::vector<unsigned> remaining_args(inputs.begin() + 1, inputs.end());
+  unsigned n = inputs.back();  // Last parameter is recursion variable
+  
+  // All parameters except the last one
+  std::vector<unsigned> remaining_args(inputs.begin(), inputs.end() - 1);
 
-  if (n == 0) {
-    return base_case_->Run(remaining_args);
-  }
-
+  base_case_->ResetCallCount();
   unsigned result = base_case_->Run(remaining_args);
+  AddNestedCalls(base_case_->GetCallCount());
+  
+  if (n == 0) {
+    return result;
+  }
   
   for (unsigned i = 0; i < n; ++i) {
+    // Build args: (x₁, ..., xₖ, i, result)
     std::vector<unsigned> recursive_args;
-    recursive_args.reserve(2 + remaining_args.size());
-    recursive_args.push_back(i);
-    recursive_args.push_back(result);
+    recursive_args.reserve(remaining_args.size() + 2);
     recursive_args.insert(recursive_args.end(), remaining_args.begin(),
                           remaining_args.end());
+    recursive_args.push_back(i);
+    recursive_args.push_back(result);
     
+    recursive_case_->ResetCallCount();
     result = recursive_case_->Run(recursive_args);
+    AddNestedCalls(recursive_case_->GetCallCount());
   }
 
   return result;

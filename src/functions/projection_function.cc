@@ -15,6 +15,7 @@ ProjectionFunction::ProjectionFunction(size_t arity, size_t index)
     : arity_(arity), index_(index) {}
 
 auto ProjectionFunction::Run(const std::vector<unsigned>& inputs) const -> unsigned {
+  IncrementCallCount();
   return inputs[index_];
 }
 
